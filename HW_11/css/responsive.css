@@ -1,0 +1,139 @@
+@media (max-width: 1188px) {
+    body {
+        min-width: 320px;
+
+    }
+
+    .header-content,
+    .about-us,
+    .text-box,
+    .portfolio,
+    .clients,
+    .contact-us,
+    .footer {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .about-us li {
+        width: 30%;
+    }
+
+    .portfolio {
+        min-height: 950px;
+    }
+
+}
+
+@media (max-width: 1136px) {
+    .portfolio {
+        min-height: 1200px;
+    }
+}
+
+
+
+@media (max-width: 1108px) {
+
+    .form {
+        width: 80%;
+    }
+
+    input[type="text"],
+    textarea,
+    .buttom {
+        width: 100%;
+    }
+
+    .boxes {
+        width: 45%;
+    }
+
+    .box-label .row:nth-of-type(2) {
+        margin-left: 10%;
+    }
+
+}
+
+@media (max-width: 870px) {
+    .portfolio {
+        min-height: 1500px;
+    }
+
+    .nav li {
+        margin-left: 4px;
+    }
+
+    .nav li a {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 758px) {
+    .nav li {
+        margin-left: 2px;
+    }
+
+    .nav li a {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+
+@media (max-width: 698px) {
+    #menu {
+        display: none;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .trigger {
+        display: inline-block;
+        margin: 3px;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 40px;
+    }
+
+    .trigger i {
+        display: block;
+        width: 30px;
+        height: 4px;
+        margin: 4px auto;
+        background: black;
+    }
+
+    .show {
+        display: block !important;
+    }
+}
+
+@media (max-width: 655px) {
+    .slogan {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 596px) {
+
+    .portfolio {
+        min-height: 2400px;
+
+    }
+
+    .portfolio-list {
+        justify-content: center;
+    }
+
+    .clients-list {
+        flex-wrap: wrap;
+
+    }
+
+}
