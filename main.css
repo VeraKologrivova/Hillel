@@ -1,0 +1,38 @@
+.header {
+}
+
+span.h1 {
+	color: green;
+	font-style: italic;
+}
+
+span.text {
+	color: red;
+	text-decoration-line: underline;
+}
+
+.content {
+}
+
+.sidebar {
+	width: 250px;
+	float: left;
+	height: 400px;
+}
+
+.data {
+	width: 700px;
+	float: left;
+}
+
+.data h1 {
+	text-align: center;
+}
+
+.data li {
+	margin-bottom: 15px;
+}
+
+.footer {
+}
+
